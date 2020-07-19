@@ -41,6 +41,38 @@
     width: 80px;
 }
 
+.leo-img {
+    height: 253px;
+    object-fit: cover;
+}
+
+@media (max-width: 1199px) {
+    .leo-img {
+        height: 208px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 991px) {
+    .leo-img {
+        height: 328px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 767px) {
+    .leo-img {
+        height: 508px;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 575px) {
+    .leo-img {
+        height: 100%;
+    }
+}
+
 .footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
 }
