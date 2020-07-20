@@ -8,6 +8,15 @@
     position: relative;
 }
 
+.place-time {
+    background-color: #212529;
+    color: white;
+}
+
+.place-time img {
+    width: 100%;
+}
+
 .carousel .overlay {
     position: absolute;
     top: 0;
